@@ -7,9 +7,12 @@ number of rounds of playing the Prime Game.
 
 def isWinner(x, nums):
     """
+    Determines the winner after a certain number of rounds
+    of playing the Prime Game
     The Prime Game is a list of consecutive ints starting from 1 up to and
     including n. Players take turns picking prime numbers, which removes
-    that number and all multiples of that number from the set. 
+    that number and all multiples of that number from the set. The player that
+    has no more prime numbers to choose loses the game.
     Maria and Ben are playing the game, and Maria always goes first.
     Given the number of rounds, n, determine who the winner is.
     parameters:
